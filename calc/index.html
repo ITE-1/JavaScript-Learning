@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+    <style>
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="btn" onclick="btnClick()">Здесь кнопка</button>
+    </div>
+    <script>
+        function btnClick() {
+            const btn = document.getElementById('btn');
+            btn.classList.add('btn-green');
+            btn.textContent = 'Эта кнопка модифицирована';
+            btn.style.backgroundColor = 'green';
+        }
+    </script>
+</body>
+</html>

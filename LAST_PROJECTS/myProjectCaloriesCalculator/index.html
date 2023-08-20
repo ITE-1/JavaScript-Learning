@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calories Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculate__window">
+            <div class="calculate__title">Title</div>
+            <div class="calculate__row">
+                <form class="calculate__form">
+                    <label>
+                        <span>Введите свой вес:</span>
+                        <input id="weight" type="number" placeholder="кг">
+                    </label>
+                    <button>Расчитать</button>
+                </form>
+                <div class="calculate__block__result">
+                    <div class="calculate__result">
+                        <span class="result-title">Углеводов</span>
+                        <span id="carbohydrate" class="result-number">0</span>
+                    </div>
+                    <div class="calculate__result">
+                        <span class="result-title">Белков</span>
+                        <span id="protein" class="result-number">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

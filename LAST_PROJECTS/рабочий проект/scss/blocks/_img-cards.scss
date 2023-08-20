@@ -1,0 +1,18 @@
+.img-cards__img {
+    border-radius: 20px;
+    
+    
+   .img-cards--rounder & {
+    border-radius: 20px 20px 0px 20px;
+    
+    
+   }
+    
+}
+.img-cards {
+   position: relative;
+  & + & {
+    margin-left: 32px;
+  }
+margin-left: -100px;
+}

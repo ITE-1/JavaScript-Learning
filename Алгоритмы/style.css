@@ -1,0 +1,29 @@
+.box {
+  box-sizing: border-box;
+  width: 400px;
+  height: 350px;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  position: relative;
+}
+button {
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; 
+}
+.arrow-bottom {
+position: absolute;
+top: 0;
+left: 50px;
+transform: translateY(50%);
+cursor: pointer;
+}
+.arrow-bottom img {
+
+  width: 55px;
+  height: 50px;
+}

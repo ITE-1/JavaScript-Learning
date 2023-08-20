@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="opinion" id="parent">
+            <div class="find">
+                <div class="find-person">
+                    <input id="search" type="text" name="text" placeholder="Введите значение" required>
+                    <button id="searchBtn">Поиск</button>
+                </div>
+                
+            </div>
+       
+          <div class="person add">
+                 <h2 class="title">Добавить новый комментарий</h2>
+                <form class="form form-add">
+                    <input id='name' type="text"  placeholder="введите ваше имя" class="author-name" required>
+                    <div class="author-rating">  Rating </div>
+                    <textarea id="field" name="field" rows="4" cols="50" required></textarea>
+                    <button value="submit" type="submit">Оставить комментарий</button>
+                </form>
+            </div> 
+            
+            <!-- <div class="person">
+                    <h2 class="title">Комментарий:</h2>
+                <form class="form">
+                    <div class="author-name"> Name  </div>
+                    <div class="author-rating">  Rating </div>
+                    <div class="text">  Commentary  </div>
+                    <button> Какая то кнопка</button>
+                </form>
+            </div>  -->
+            
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

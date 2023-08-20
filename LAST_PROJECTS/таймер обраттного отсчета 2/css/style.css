@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  
+  nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+   
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .container {
+    max-width: 100%;
+    height: 100vh;
+    background: url(/assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+      display: flex;
+      justify-content: right;
+      align-items: center;
+  }
+  .timer {
+    padding: 10px 15px;
+   
+  }
+  .timer button {
+    text-align: center;
+  }
+  .timer h1 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+  }
+  .timer-row {
+    padding: 40px;
+    border-radius: 50px;
+    display: flex;
+    column-gap: 50px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) ;
+
+  }
+  .numbers {
+    text-align: center;
+    
+    padding: 10px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1) ;
+  }
+  .numbers p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .numbers span {
+    display:inline-block;
+    padding: 10px 4px;
+
+    font-size: 32px;
+    margin-bottom: 15px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 15px;
+  }

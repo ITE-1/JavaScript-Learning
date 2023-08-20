@@ -1,0 +1,34 @@
+.intro {
+}
+
+.intro__wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.intro__block {
+    width:467px;
+}
+.intro__title {
+    font-size:54px;
+    font-weight: 700;
+    line-height: 1.46;
+    margin-bottom: 25px;
+
+    margin-right: -150px;
+    position: relative;
+    z-index: 9;
+    
+}
+.intro__block p {
+    line-height: 1.687;
+   
+    margin-bottom: 1em;
+}
+.intro__img img {
+    border-radius: 40px 40px 40px 0;
+}
+.intro__form {
+    margin-top:42px;
+}

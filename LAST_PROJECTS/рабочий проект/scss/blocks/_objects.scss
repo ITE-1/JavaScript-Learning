@@ -1,0 +1,39 @@
+.objects {
+   padding-bottom: 70px;
+}
+.container {
+}
+.objects__row {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.objects__img {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+   
+    
+}
+.objects__text {
+    max-width: 543px;
+    padding-left: 180px ;
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p + p {
+        margin-top: 20px;
+    }
+   
+}
+.objects__title {
+  padding-top: 50px;
+    
+    
+}
+.objects_button {
+    margin-top:40px;
+}

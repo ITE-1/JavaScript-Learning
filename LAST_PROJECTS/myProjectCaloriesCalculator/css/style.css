@@ -1,0 +1,65 @@
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: darkcyan;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculate__window {
+    width: 600px;
+    height: 350px;
+    background-color: burlywood;
+}
+.calculate__title{
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.calculate__row {
+    display:flex;
+    column-gap: 30px;
+    align-items: center;
+
+}
+.calculate__form {
+    padding: 5px;
+    display:flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.calculate__form label span {
+    font-size: 20px;
+}
+.calculate__form input {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 100px;
+}
+.calculate__form button {
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+}
+.result-title {
+    padding: 5px;
+    font-size: 18px;
+}
+.result-number {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+    background-color: aliceblue;
+}
+.calculate__result {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

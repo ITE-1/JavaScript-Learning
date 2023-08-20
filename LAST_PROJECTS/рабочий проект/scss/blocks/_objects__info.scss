@@ -1,0 +1,31 @@
+.objects__info {
+    display:flex;
+    align-items: center;
+    position: absolute;
+    padding: 30px;
+   right:-30px;
+   bottom: 87px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+.info__image {
+  margin-right: 20px;
+
+}
+.info__text {
+    
+     
+    h4 {
+        
+        font-weight: 700;
+    
+        line-height: 24px;
+    }
+    p {
+        
+    line-height: 27px;
+       
+    }
+}

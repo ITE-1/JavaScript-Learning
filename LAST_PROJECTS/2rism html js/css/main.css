@@ -1,0 +1,184 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    padding: 31px 0 100px;
+    color: #ffff;
+    height: 800px;
+    background-color: black;
+    background-image: url(/img/header/header-bg.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0 0 54px 54px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.container--header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation {
+    display:flex;
+    column-gap: 150px;
+    align-items: center;
+}
+.logo {
+width: 87px;
+height: 35px;
+}
+.nav-list {
+    display:flex;
+    column-gap: 50px;
+}
+.nav-list__item {
+
+}
+
+.nav-list__link {
+    opacity: 0.7;
+}
+.nav-list__link:hover {
+    opacity: 1;
+}
+.nav-list__link--active {
+   opacity: 1;
+}
+.user {
+    display: flex;
+    column-gap: 20px;
+}
+.user__content {
+    text-align: right;
+}
+.user__greetings {
+    
+    opacity: 0.6;
+}
+.user__name {
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.user__avatar {
+    position: relative;
+}
+.user__avatar::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    position: absolute;
+    
+}
+.user__avatar img {
+   border-radius: 50%;
+    width: 48px;
+    height: 48px; 
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title__name {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px; 
+    margin-bottom: 32px; 
+}
+.title__button {
+    width: 273px;
+    height: 72px;
+    background-color: #7B61FF;
+    border-radius: 20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: .8;
+    transition: opacity 0.8s ease;
+}
+.title__button:hover {
+    position: relative;
+    top: 1px;
+    
+    opacity: 1;
+
+}
+.title__button-img {
+    padding-right: 10px;
+}
+.title__button-link {
+    font-weight: 600;
+    line-height: 28px;
+}
+.header__form {
+   
+}
+.form { 
+    width: 1140px;
+    height: 88px;
+    border-radius: 12px;
+    padding: 8px 8px;
+    align-items: stretch;
+    color: black;
+    background-color: #ffff;
+    display: flex;
+}
+.label {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+   color: #5B5B5B;
+}
+.select {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+}
+
+.button__search {
+width: 60px;
+height: 60px;
+
+background: #7B61FF;
+border-radius: 12px;
+
+}
+.form__input {
+    display: inline-block;
+   position: relative;
+   padding: 16px 26px 16px 56px;
+}
+.form__input::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: 24px;
+   
+}
+.form__input--location::before {
+    background-image: url(/img/icons/map.svg);
+}
